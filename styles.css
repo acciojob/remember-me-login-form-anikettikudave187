@@ -1,1 +1,57 @@
 /*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+}
+h1{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-family:Arial, sans-serif;
+	font-size:2.5rem;
+	color:darkcyan;
+	border:solid grey 2px;
+	padding:1rem;
+}
+.details{
+	display:flex;
+	margin:0 30px auto;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	gap:10px;
+}
+.details input{
+	width:400px;
+	text-align:center;
+	font-size:1rem;
+	padding:2px;
+}
+input:hover{
+	background-color:lightblue;
+}
+#username{
+	margin-top:3rem;
+	margin-bottom:0.5rem;
+}
+
+button{
+	width:400px;
+	padding:2px;
+	font-size:0.75rem;
+}
+button:hover{
+	cursor:pointer;
+	background-color:lightcoral;
+}
+
+.hide{
+	display:none;
+}
+
+
+
+
+
+
+
